@@ -19,6 +19,9 @@ span {
   color: red;
 }
 
+/*
+* フォーム
+*/
 .form-input {
   display: flex;
   width: 100%;
@@ -28,11 +31,13 @@ span {
   margin: 15px 0 0 0;
 }
 
+/* フォームラベル */
 .form-input label {
   display: block;
   width: 30%;
 }
 
+/* ラジオボタン */
 .form-input .radio {
   display: flex;
 }
@@ -49,6 +54,7 @@ span {
   margin-left: 0;
 }
 
+/* 送信ボタン */
 input[type="submit"] {
   display: block;
   margin: 15px auto;
