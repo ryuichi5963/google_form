@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body {
+  background-color: antiquewhite;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+div:has(form) {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+span {
+  color: red;
+}
+
+.form-input {
+  display: flex;
+  width: 100%;
+}
+
+.form-input:not(:first-of-type) {
+  margin: 15px 0 0 0;
+}
+
+.form-input label {
+  display: block;
+  width: 30%;
+}
+
+.form-input .radio {
+  display: flex;
+}
+
+.form-input .radio * {
+  margin: 0;
+}
+
+.form-input .radio input {
+  margin: 0 5px;
+}
+
+.form-input .radio:first-of-type input {
+  margin-left: 0;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 15px auto;
+}
