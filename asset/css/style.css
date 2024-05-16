@@ -55,7 +55,7 @@ span {
 }
 
 /* 送信ボタン */
-input[type="submit"] {
+button {
   display: block;
   margin: 15px auto;
 }
