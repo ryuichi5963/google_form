@@ -12,7 +12,7 @@
     <h2>Form+Sheets+GAS</h2>
     <p><span>*印は入力必須項目です</span></p>
     <div>
-      <form id="myForm" action="https://script.google.com/macros/s/AKfycbyQR-zIC_Vvx0Z9jXhxlXvWRYeld2geFNuPaUAcgiKpLNunK6BWTSsOl51zffVMfXWB/exec" method="post">
+      <form id="myForm" action="https://script.google.com/macros/s/AKfycbyQR-zIC_Vvx0Z9jXhxlXvWRYeld2geFNuPaUAcgiKpLNunK6BWTSsOl51zffVMfXWB/exec">
         <!-- 名前 -->
         <div class="form-input">
           <label for="name">名前<span>*</span></label>
@@ -77,7 +77,7 @@
           method: "POST",
           body: formData,
         })
-          .then((response) => response.json())
+          .then((response) => response.text())
           .then((data) => {
             document.getElementById("response").innerHTML = data;
           })
